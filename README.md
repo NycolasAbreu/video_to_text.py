@@ -30,7 +30,7 @@ sudo apt install ffmpeg
 ## Usage
 
 ```bash
-python transcriber.py [OPTIONS]
+python3 transcriber.py [OPTIONS]
 ```
 
 ### Options
@@ -46,17 +46,17 @@ python transcriber.py [OPTIONS]
 
 - Transcribe all `.mp4` videos in the current folder:
   ```bash
-  python transcriber.py
+  python3 transcriber.py
   ```
 
 - Transcribe `.mov` videos in a custom input folder:
   ```bash
-  python transcriber.py -i ./videos -e .mov
+  python3 transcriber.py -i ./videos -e .mov
   ```
 
 - Use the `small` model and save transcriptions in a custom output folder:
   ```bash
-  python transcriber.py -i ./lectures -o ./transcripts -m small
+  python3 transcriber.py -i ./lectures -o ./transcripts -m small
   ```
 
 ## 📄 Output
